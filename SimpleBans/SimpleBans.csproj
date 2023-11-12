@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="CSS\" />
+      <Folder Include="DALs\" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Reference Include="CounterStrikeSharp.API">
+            <HintPath>C:\Users\samsepi0l\RiderProjects\SimpleBans\SimpleBans\CSS\CounterStrikeSharp.API.dll</HintPath>
+        </Reference>
+    </ItemGroup>
+
+</Project>
